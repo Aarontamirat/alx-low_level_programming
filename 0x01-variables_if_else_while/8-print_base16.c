@@ -3,7 +3,7 @@
  * main - print hexadecimal numbers
  * Return: 0 upon success
  */
-int main(void) 
+int main(void)
 {
 	int  n;
 	char alphabet;
