@@ -7,11 +7,12 @@ int main(void)
 {
 	int  n;
 	char alphabet;
+
 	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}
-	for (alphabet = 'a'; alphabet<= 'f'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
 	{
 		putchar(alphabet);
 	}
