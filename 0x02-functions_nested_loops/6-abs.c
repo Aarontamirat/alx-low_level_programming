@@ -3,7 +3,7 @@
 /**
  * _abs - identifies the absolute value of a number
  * @n: n is an integer number
- *
+ * Description: identifies the absolute value of a number
  * Return - the number
  */
 
