@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _abs - identifies the absolute value of a number
+ * _abs - identifies the absolute value of an integer
  * @n: n is an integer number
- * Description: identifies the absolute value of a number
  * Return - the number
  */
 
