@@ -1,12 +1,12 @@
-nclude "main.h"
+include "main.h"
 
 /**
- *  * main - printing out _putchar
- *   *
- *    * Description: this program simply prints _putchar
- *     *
- *      * Return: 0 up on success
- *       */
+ * main - printing out _putchar
+ *
+ * Description: this program simply prints _putchar
+ *
+ * Return: 0 up on success
+ */
 
 int main(void)
 {
