@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	for(i = sizeof(s); i > 0; i++)
 	{
-		printf("%c", s[i];
+		printf("%c", s[i]);
 	}
 	printf("\n");
 }
