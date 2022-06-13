@@ -8,11 +8,21 @@
 
 void puts_half(char *str)
 {
-	int size;
+	int count = 0, i;
 
-	for(size = sizeof(*str)/2; (unsigned)size < sizeof(*str); size ++)
+	while (count >= 0)
 	{
-		putchar(str[size]);
+		if (str[count] == '\0')
+			break;
+		count++;
 	}
+
+	if (count % 2 == 1)
+		i = count / 2;
+	else
+		i = (count - 1) / 2;
+
+	for (i++; i < count; i++)
+		putchar(str[i]);
 	putchar('\n');
 }
