@@ -6,6 +6,7 @@
  *
  * @dest: passed in string 1
  * @src: passed in string 2
+ * @n: number of concat
  * Return: dest
  */
 
