@@ -4,6 +4,7 @@
  * _strncpy - copies n number from src to dest
  * @dest: passed in string
  * @src: passed in string
+ * @n: passed in string 
  * Return: concated string
  */
 
