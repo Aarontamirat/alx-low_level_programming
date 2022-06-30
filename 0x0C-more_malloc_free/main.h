@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
 
 #include <stdlib.h>
@@ -14,5 +14,8 @@ void errors(void);
 int _strlen(char *s);
 int is_digit(char *s);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+void _puts(char *str);
+int _atoi(const char *s);
+void print_int(unsigned long int n);
 
 #endif
